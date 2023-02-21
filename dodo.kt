@@ -52,9 +52,8 @@ fun test() {
     var res: Int
     do {
         res = readln().toInt()
-        println("Please, try again.")
+        if (res != 2) {println("Please, try again.")}
     } while (res != 2)
-    end()
 }
 
 fun end() {
